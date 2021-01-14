@@ -1,4 +1,4 @@
-package algoexpert.medium;
+package exalgorithms.medium;
 
 import org.junit.Assert;
 import org.junit.Test;

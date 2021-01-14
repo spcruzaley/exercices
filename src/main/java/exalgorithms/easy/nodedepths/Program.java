@@ -1,4 +1,4 @@
-package algoexpert.easy.nodedepths;
+package exalgorithms.easy.nodedepths;
 
 class Program {
 

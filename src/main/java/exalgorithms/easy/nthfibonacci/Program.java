@@ -1,4 +1,4 @@
-package algoexpert.easy.nthfibonacci;
+package exalgorithms.easy.nthfibonacci;
 
 public class Program {
 

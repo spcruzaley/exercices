@@ -1,4 +1,4 @@
-package algoexpert.medium;
+package exalgorithms.medium;
 
 import java.util.*;
 

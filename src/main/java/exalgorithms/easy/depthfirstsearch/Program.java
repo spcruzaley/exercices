@@ -1,4 +1,4 @@
-package algoexpert.easy.depthfirstsearch;
+package exalgorithms.easy.depthfirstsearch;
 
 import java.util.ArrayList;
 import java.util.List;

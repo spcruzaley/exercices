@@ -1,4 +1,4 @@
-package algoexpert.easy.branchsums;
+package exalgorithms.easy.branchsums;
 
 import java.util.ArrayList;
 import java.util.List;
