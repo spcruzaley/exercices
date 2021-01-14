@@ -5,6 +5,10 @@ import java.util.*;
 
 public class Misc {
 
+    public static void main(String[] args) {
+        System.out.println(reverseString("hola"));
+    }
+
     static int[][] buildMatrix(int size) {
         int cont = 1;
         int[][] matrix = new int[size][size];
@@ -31,6 +35,18 @@ public class Misc {
     }
 
     public static void printCharMatrix(char[][] matrix, int size, int length) {
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < length; j++) {
+                System.out.print(matrix[i][j]);
+                if(j<matrix.length-1)
+                    System.out.print(",");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    public static void printIntMatrix(int[][] matrix, int size, int length) {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < length; j++) {
                 System.out.print(matrix[i][j]);
@@ -101,6 +117,17 @@ public class Misc {
         }
 
         return builder.toString();
+    }
+
+    public static void log(Object message) {
+        System.out.println(">>> " + message.toString());
+    }
+
+    public static String reverseString(String string) {
+        if(string.length() == 0)
+            return "";
+
+        return reverseString(string.substring(1)) + string.charAt(0);
     }
 
 }
